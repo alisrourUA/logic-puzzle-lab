@@ -1,0 +1,2251 @@
+[
+ {
+  "puzzle_id": "easy-0",
+  "label": "easy",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Mhmd",
+     "Ali",
+     "Lina",
+     "Omar"
+    ],
+    "color": [
+     "yellow",
+     "blue",
+     "black",
+     "white"
+    ],
+    "pet": [
+     "dog",
+     "rabbit",
+     "cat",
+     "bird"
+    ]
+   },
+   "clues": [
+    {
+     "type": "right_of",
+     "a": "color:blue",
+     "b": "person:Omar"
+    },
+    {
+     "type": "not_next_to",
+     "a": "person:Omar",
+     "b": "pet:cat"
+    },
+    {
+     "type": "at",
+     "a": "color:white",
+     "pos": 2
+    },
+    {
+     "type": "at",
+     "a": "pet:rabbit",
+     "pos": 1
+    },
+    {
+     "type": "at",
+     "a": "person:Ali",
+     "pos": 3
+    },
+    {
+     "type": "not_at",
+     "a": "color:yellow",
+     "pos": 4
+    },
+    {
+     "type": "same",
+     "a": "color:blue",
+     "b": "pet:bird"
+    },
+    {
+     "type": "at",
+     "a": "person:Lina",
+     "pos": 1
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Lina",
+     "Omar",
+     "Ali",
+     "Mhmd"
+    ],
+    "color": [
+     "yellow",
+     "white",
+     "blue",
+     "black"
+    ],
+    "pet": [
+     "rabbit",
+     "dog",
+     "bird",
+     "cat"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "easy-1",
+  "label": "easy",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Omar",
+     "Sara",
+     "Mhmd",
+     "Rita"
+    ],
+    "color": [
+     "yellow",
+     "black",
+     "white",
+     "green"
+    ],
+    "food": [
+     "pizza",
+     "falafel",
+     "salad",
+     "sushi"
+    ]
+   },
+   "clues": [
+    {
+     "type": "same",
+     "a": "person:Mhmd",
+     "b": "food:pizza"
+    },
+    {
+     "type": "at",
+     "a": "person:Rita",
+     "pos": 2
+    },
+    {
+     "type": "same",
+     "a": "person:Rita",
+     "b": "color:green"
+    },
+    {
+     "type": "at",
+     "a": "color:black",
+     "pos": 4
+    },
+    {
+     "type": "next_to",
+     "a": "person:Mhmd",
+     "b": "food:falafel"
+    },
+    {
+     "type": "at",
+     "a": "person:Omar",
+     "pos": 4
+    },
+    {
+     "type": "at",
+     "a": "color:white",
+     "pos": 1
+    },
+    {
+     "type": "at",
+     "a": "food:sushi",
+     "pos": 3
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Mhmd",
+     "Rita",
+     "Sara",
+     "Omar"
+    ],
+    "color": [
+     "white",
+     "green",
+     "yellow",
+     "black"
+    ],
+    "food": [
+     "pizza",
+     "falafel",
+     "sushi",
+     "salad"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "easy-2",
+  "label": "easy",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Lina",
+     "Omar",
+     "Rita",
+     "Sara"
+    ],
+    "color": [
+     "black",
+     "blue",
+     "white",
+     "yellow"
+    ],
+    "food": [
+     "salad",
+     "sushi",
+     "burger",
+     "pizza"
+    ]
+   },
+   "clues": [
+    {
+     "type": "at",
+     "a": "color:blue",
+     "pos": 2
+    },
+    {
+     "type": "at",
+     "a": "color:yellow",
+     "pos": 3
+    },
+    {
+     "type": "at",
+     "a": "food:burger",
+     "pos": 2
+    },
+    {
+     "type": "left_of",
+     "a": "color:black",
+     "b": "person:Omar"
+    },
+    {
+     "type": "at",
+     "a": "food:sushi",
+     "pos": 1
+    },
+    {
+     "type": "same",
+     "a": "food:salad",
+     "b": "person:Sara"
+    },
+    {
+     "type": "same",
+     "a": "person:Lina",
+     "b": "color:yellow"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Rita",
+     "Omar",
+     "Lina",
+     "Sara"
+    ],
+    "color": [
+     "black",
+     "blue",
+     "yellow",
+     "white"
+    ],
+    "food": [
+     "sushi",
+     "burger",
+     "pizza",
+     "salad"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "easy-3",
+  "label": "easy",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Omar",
+     "Mhmd",
+     "Sara",
+     "Lina"
+    ],
+    "color": [
+     "black",
+     "green",
+     "white",
+     "blue"
+    ],
+    "pet": [
+     "cat",
+     "dog",
+     "turtle",
+     "rabbit"
+    ]
+   },
+   "clues": [
+    {
+     "type": "at",
+     "a": "color:green",
+     "pos": 1
+    },
+    {
+     "type": "left_of",
+     "a": "person:Lina",
+     "b": "pet:dog"
+    },
+    {
+     "type": "at",
+     "a": "color:white",
+     "pos": 3
+    },
+    {
+     "type": "at",
+     "a": "pet:turtle",
+     "pos": 4
+    },
+    {
+     "type": "at",
+     "a": "person:Omar",
+     "pos": 3
+    },
+    {
+     "type": "not_next_to",
+     "a": "color:white",
+     "b": "person:Sara"
+    },
+    {
+     "type": "left_of",
+     "a": "color:blue",
+     "b": "pet:turtle"
+    },
+    {
+     "type": "not_same",
+     "a": "color:blue",
+     "b": "pet:cat"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Sara",
+     "Lina",
+     "Omar",
+     "Mhmd"
+    ],
+    "color": [
+     "green",
+     "blue",
+     "white",
+     "black"
+    ],
+    "pet": [
+     "cat",
+     "rabbit",
+     "dog",
+     "turtle"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "easy-4",
+  "label": "easy",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Sara",
+     "Ali",
+     "Lina",
+     "Omar"
+    ],
+    "color": [
+     "black",
+     "yellow",
+     "white",
+     "blue"
+    ],
+    "sport": [
+     "swimming",
+     "basketball",
+     "chess",
+     "football"
+    ]
+   },
+   "clues": [
+    {
+     "type": "same",
+     "a": "person:Lina",
+     "b": "sport:basketball"
+    },
+    {
+     "type": "at",
+     "a": "color:black",
+     "pos": 1
+    },
+    {
+     "type": "same",
+     "a": "sport:football",
+     "b": "person:Sara"
+    },
+    {
+     "type": "at",
+     "a": "person:Omar",
+     "pos": 4
+    },
+    {
+     "type": "at",
+     "a": "sport:chess",
+     "pos": 2
+    },
+    {
+     "type": "same",
+     "a": "color:blue",
+     "b": "person:Lina"
+    },
+    {
+     "type": "left_of",
+     "a": "color:yellow",
+     "b": "person:Lina"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Sara",
+     "Ali",
+     "Lina",
+     "Omar"
+    ],
+    "color": [
+     "black",
+     "yellow",
+     "blue",
+     "white"
+    ],
+    "sport": [
+     "football",
+     "chess",
+     "basketball",
+     "swimming"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "easy-5",
+  "label": "easy",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Sara",
+     "Mhmd",
+     "Ali",
+     "Omar"
+    ],
+    "color": [
+     "red",
+     "yellow",
+     "green",
+     "white"
+    ],
+    "food": [
+     "pizza",
+     "falafel",
+     "salad",
+     "pasta"
+    ]
+   },
+   "clues": [
+    {
+     "type": "at",
+     "a": "food:pizza",
+     "pos": 4
+    },
+    {
+     "type": "next_to",
+     "a": "food:salad",
+     "b": "person:Sara"
+    },
+    {
+     "type": "left_of",
+     "a": "color:white",
+     "b": "food:falafel"
+    },
+    {
+     "type": "not_same",
+     "a": "color:red",
+     "b": "person:Sara"
+    },
+    {
+     "type": "at",
+     "a": "person:Sara",
+     "pos": 4
+    },
+    {
+     "type": "at",
+     "a": "person:Ali",
+     "pos": 2
+    },
+    {
+     "type": "same",
+     "a": "color:green",
+     "b": "person:Mhmd"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Omar",
+     "Ali",
+     "Mhmd",
+     "Sara"
+    ],
+    "color": [
+     "white",
+     "red",
+     "green",
+     "yellow"
+    ],
+    "food": [
+     "pasta",
+     "falafel",
+     "salad",
+     "pizza"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "easy-6",
+  "label": "easy",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Rita",
+     "Lina",
+     "Sara",
+     "Omar"
+    ],
+    "color": [
+     "white",
+     "green",
+     "red",
+     "black"
+    ],
+    "sport": [
+     "swimming",
+     "football",
+     "running",
+     "chess"
+    ]
+   },
+   "clues": [
+    {
+     "type": "left_of",
+     "a": "color:black",
+     "b": "sport:running"
+    },
+    {
+     "type": "next_to",
+     "a": "sport:swimming",
+     "b": "person:Sara"
+    },
+    {
+     "type": "left_of",
+     "a": "person:Omar",
+     "b": "color:red"
+    },
+    {
+     "type": "right_of",
+     "a": "sport:football",
+     "b": "color:green"
+    },
+    {
+     "type": "next_to",
+     "a": "color:white",
+     "b": "person:Lina"
+    },
+    {
+     "type": "same",
+     "a": "color:green",
+     "b": "sport:chess"
+    },
+    {
+     "type": "next_to",
+     "a": "sport:chess",
+     "b": "person:Sara"
+    },
+    {
+     "type": "not_same",
+     "a": "color:red",
+     "b": "person:Sara"
+    },
+    {
+     "type": "not_next_to",
+     "a": "color:white",
+     "b": "sport:football"
+    },
+    {
+     "type": "not_at",
+     "a": "sport:swimming",
+     "pos": 1
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Omar",
+     "Sara",
+     "Lina",
+     "Rita"
+    ],
+    "color": [
+     "green",
+     "black",
+     "red",
+     "white"
+    ],
+    "sport": [
+     "chess",
+     "football",
+     "swimming",
+     "running"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "easy-7",
+  "label": "easy",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Sara",
+     "Mhmd",
+     "Ali",
+     "Lina"
+    ],
+    "color": [
+     "yellow",
+     "white",
+     "green",
+     "black"
+    ],
+    "pet": [
+     "bird",
+     "turtle",
+     "fish",
+     "dog"
+    ]
+   },
+   "clues": [
+    {
+     "type": "right_of",
+     "a": "color:yellow",
+     "b": "person:Lina"
+    },
+    {
+     "type": "at",
+     "a": "person:Mhmd",
+     "pos": 4
+    },
+    {
+     "type": "right_of",
+     "a": "person:Lina",
+     "b": "pet:turtle"
+    },
+    {
+     "type": "same",
+     "a": "pet:dog",
+     "b": "color:white"
+    },
+    {
+     "type": "at",
+     "a": "pet:dog",
+     "pos": 1
+    },
+    {
+     "type": "not_same",
+     "a": "pet:bird",
+     "b": "person:Mhmd"
+    },
+    {
+     "type": "same",
+     "a": "color:black",
+     "b": "person:Sara"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Ali",
+     "Sara",
+     "Lina",
+     "Mhmd"
+    ],
+    "color": [
+     "white",
+     "black",
+     "green",
+     "yellow"
+    ],
+    "pet": [
+     "dog",
+     "turtle",
+     "bird",
+     "fish"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "medium-0",
+  "label": "medium",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Omar",
+     "Lina",
+     "Mhmd",
+     "Ali"
+    ],
+    "color": [
+     "green",
+     "blue",
+     "yellow",
+     "red"
+    ],
+    "job": [
+     "artist",
+     "pilot",
+     "doctor",
+     "engineer"
+    ]
+   },
+   "clues": [
+    {
+     "type": "left_of",
+     "a": "color:green",
+     "b": "color:red"
+    },
+    {
+     "type": "not_next_to",
+     "a": "person:Omar",
+     "b": "job:doctor"
+    },
+    {
+     "type": "next_to",
+     "a": "color:green",
+     "b": "person:Lina"
+    },
+    {
+     "type": "same",
+     "a": "person:Mhmd",
+     "b": "color:blue"
+    },
+    {
+     "type": "right_of",
+     "a": "job:artist",
+     "b": "job:doctor"
+    },
+    {
+     "type": "not_same",
+     "a": "job:engineer",
+     "b": "person:Lina"
+    },
+    {
+     "type": "not_same",
+     "a": "color:yellow",
+     "b": "job:pilot"
+    },
+    {
+     "type": "not_next_to",
+     "a": "job:doctor",
+     "b": "color:yellow"
+    },
+    {
+     "type": "left_of",
+     "a": "job:doctor",
+     "b": "person:Ali"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Mhmd",
+     "Ali",
+     "Lina",
+     "Omar"
+    ],
+    "color": [
+     "blue",
+     "green",
+     "red",
+     "yellow"
+    ],
+    "job": [
+     "doctor",
+     "artist",
+     "pilot",
+     "engineer"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "medium-1",
+  "label": "medium",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Ali",
+     "Omar",
+     "Mhmd",
+     "Rita"
+    ],
+    "color": [
+     "blue",
+     "red",
+     "green",
+     "black"
+    ],
+    "food": [
+     "falafel",
+     "pizza",
+     "sushi",
+     "salad"
+    ]
+   },
+   "clues": [
+    {
+     "type": "same",
+     "a": "person:Ali",
+     "b": "color:red"
+    },
+    {
+     "type": "not_same",
+     "a": "person:Mhmd",
+     "b": "food:salad"
+    },
+    {
+     "type": "left_of",
+     "a": "person:Ali",
+     "b": "food:falafel"
+    },
+    {
+     "type": "not_same",
+     "a": "color:red",
+     "b": "food:sushi"
+    },
+    {
+     "type": "not_same",
+     "a": "food:sushi",
+     "b": "color:black"
+    },
+    {
+     "type": "same",
+     "a": "color:black",
+     "b": "person:Mhmd"
+    },
+    {
+     "type": "left_of",
+     "a": "color:black",
+     "b": "color:green"
+    },
+    {
+     "type": "right_of",
+     "a": "person:Omar",
+     "b": "person:Mhmd"
+    },
+    {
+     "type": "right_of",
+     "a": "food:salad",
+     "b": "color:red"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Ali",
+     "Rita",
+     "Mhmd",
+     "Omar"
+    ],
+    "color": [
+     "red",
+     "blue",
+     "black",
+     "green"
+    ],
+    "food": [
+     "pizza",
+     "salad",
+     "falafel",
+     "sushi"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "medium-2",
+  "label": "medium",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Ali",
+     "Mhmd",
+     "Lina",
+     "Rita"
+    ],
+    "color": [
+     "green",
+     "white",
+     "blue",
+     "yellow"
+    ],
+    "sport": [
+     "football",
+     "tennis",
+     "chess",
+     "swimming"
+    ]
+   },
+   "clues": [
+    {
+     "type": "not_same",
+     "a": "sport:tennis",
+     "b": "color:yellow"
+    },
+    {
+     "type": "next_to",
+     "a": "color:blue",
+     "b": "person:Mhmd"
+    },
+    {
+     "type": "next_to",
+     "a": "person:Ali",
+     "b": "color:green"
+    },
+    {
+     "type": "next_to",
+     "a": "person:Ali",
+     "b": "sport:football"
+    },
+    {
+     "type": "left_of",
+     "a": "person:Lina",
+     "b": "color:yellow"
+    },
+    {
+     "type": "not_next_to",
+     "a": "color:white",
+     "b": "sport:chess"
+    },
+    {
+     "type": "not_at",
+     "a": "sport:football",
+     "pos": 3
+    },
+    {
+     "type": "at",
+     "a": "color:green",
+     "pos": 1
+    },
+    {
+     "type": "right_of",
+     "a": "person:Mhmd",
+     "b": "color:white"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Lina",
+     "Ali",
+     "Mhmd",
+     "Rita"
+    ],
+    "color": [
+     "green",
+     "white",
+     "yellow",
+     "blue"
+    ],
+    "sport": [
+     "football",
+     "tennis",
+     "swimming",
+     "chess"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "medium-3",
+  "label": "medium",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Lina",
+     "Sara",
+     "Ali",
+     "Omar"
+    ],
+    "color": [
+     "red",
+     "black",
+     "green",
+     "blue"
+    ],
+    "job": [
+     "pilot",
+     "doctor",
+     "engineer",
+     "chef"
+    ]
+   },
+   "clues": [
+    {
+     "type": "not_at",
+     "a": "job:pilot",
+     "pos": 3
+    },
+    {
+     "type": "next_to",
+     "a": "color:blue",
+     "b": "color:red"
+    },
+    {
+     "type": "same",
+     "a": "person:Ali",
+     "b": "color:red"
+    },
+    {
+     "type": "at",
+     "a": "job:doctor",
+     "pos": 1
+    },
+    {
+     "type": "at",
+     "a": "job:chef",
+     "pos": 4
+    },
+    {
+     "type": "right_of",
+     "a": "person:Omar",
+     "b": "person:Sara"
+    },
+    {
+     "type": "right_of",
+     "a": "color:black",
+     "b": "color:blue"
+    },
+    {
+     "type": "not_same",
+     "a": "job:engineer",
+     "b": "color:black"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Lina",
+     "Ali",
+     "Sara",
+     "Omar"
+    ],
+    "color": [
+     "green",
+     "red",
+     "blue",
+     "black"
+    ],
+    "job": [
+     "doctor",
+     "pilot",
+     "engineer",
+     "chef"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "medium-4",
+  "label": "medium",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Ali",
+     "Lina",
+     "Rita",
+     "Sara"
+    ],
+    "color": [
+     "white",
+     "yellow",
+     "green",
+     "blue"
+    ],
+    "drink": [
+     "coffee",
+     "lemonade",
+     "juice",
+     "tea"
+    ]
+   },
+   "clues": [
+    {
+     "type": "at",
+     "a": "color:yellow",
+     "pos": 1
+    },
+    {
+     "type": "at",
+     "a": "color:blue",
+     "pos": 2
+    },
+    {
+     "type": "not_same",
+     "a": "color:yellow",
+     "b": "drink:tea"
+    },
+    {
+     "type": "at",
+     "a": "person:Ali",
+     "pos": 1
+    },
+    {
+     "type": "not_at",
+     "a": "drink:lemonade",
+     "pos": 3
+    },
+    {
+     "type": "same",
+     "a": "color:white",
+     "b": "person:Lina"
+    },
+    {
+     "type": "not_next_to",
+     "a": "drink:coffee",
+     "b": "drink:tea"
+    },
+    {
+     "type": "at",
+     "a": "person:Sara",
+     "pos": 2
+    },
+    {
+     "type": "same",
+     "a": "color:white",
+     "b": "drink:coffee"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Ali",
+     "Sara",
+     "Rita",
+     "Lina"
+    ],
+    "color": [
+     "yellow",
+     "blue",
+     "green",
+     "white"
+    ],
+    "drink": [
+     "lemonade",
+     "tea",
+     "juice",
+     "coffee"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "medium-5",
+  "label": "medium",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Sara",
+     "Lina",
+     "Omar",
+     "Mhmd"
+    ],
+    "color": [
+     "yellow",
+     "white",
+     "blue",
+     "green"
+    ],
+    "pet": [
+     "turtle",
+     "rabbit",
+     "cat",
+     "fish"
+    ]
+   },
+   "clues": [
+    {
+     "type": "at",
+     "a": "person:Sara",
+     "pos": 1
+    },
+    {
+     "type": "same",
+     "a": "color:blue",
+     "b": "pet:rabbit"
+    },
+    {
+     "type": "not_next_to",
+     "a": "color:white",
+     "b": "pet:rabbit"
+    },
+    {
+     "type": "at",
+     "a": "color:yellow",
+     "pos": 3
+    },
+    {
+     "type": "at",
+     "a": "pet:turtle",
+     "pos": 3
+    },
+    {
+     "type": "same",
+     "a": "person:Lina",
+     "b": "color:green"
+    },
+    {
+     "type": "same",
+     "a": "person:Mhmd",
+     "b": "pet:cat"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Sara",
+     "Lina",
+     "Omar",
+     "Mhmd"
+    ],
+    "color": [
+     "blue",
+     "green",
+     "yellow",
+     "white"
+    ],
+    "pet": [
+     "rabbit",
+     "fish",
+     "turtle",
+     "cat"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "medium-6",
+  "label": "medium",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Rita",
+     "Lina",
+     "Mhmd",
+     "Ali"
+    ],
+    "color": [
+     "blue",
+     "black",
+     "red",
+     "green"
+    ],
+    "food": [
+     "falafel",
+     "pizza",
+     "salad",
+     "sushi"
+    ]
+   },
+   "clues": [
+    {
+     "type": "at",
+     "a": "food:falafel",
+     "pos": 4
+    },
+    {
+     "type": "same",
+     "a": "color:black",
+     "b": "food:falafel"
+    },
+    {
+     "type": "at",
+     "a": "food:pizza",
+     "pos": 1
+    },
+    {
+     "type": "at",
+     "a": "person:Ali",
+     "pos": 1
+    },
+    {
+     "type": "same",
+     "a": "person:Rita",
+     "b": "color:black"
+    },
+    {
+     "type": "not_next_to",
+     "a": "person:Lina",
+     "b": "color:green"
+    },
+    {
+     "type": "next_to",
+     "a": "food:sushi",
+     "b": "color:black"
+    },
+    {
+     "type": "at",
+     "a": "color:red",
+     "pos": 2
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Ali",
+     "Mhmd",
+     "Lina",
+     "Rita"
+    ],
+    "color": [
+     "green",
+     "red",
+     "blue",
+     "black"
+    ],
+    "food": [
+     "pizza",
+     "salad",
+     "sushi",
+     "falafel"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "medium-7",
+  "label": "medium",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Lina",
+     "Rita",
+     "Sara",
+     "Omar"
+    ],
+    "color": [
+     "red",
+     "yellow",
+     "blue",
+     "white"
+    ],
+    "pet": [
+     "turtle",
+     "fish",
+     "bird",
+     "cat"
+    ]
+   },
+   "clues": [
+    {
+     "type": "same",
+     "a": "color:blue",
+     "b": "pet:turtle"
+    },
+    {
+     "type": "same",
+     "a": "person:Omar",
+     "b": "pet:turtle"
+    },
+    {
+     "type": "not_at",
+     "a": "color:red",
+     "pos": 4
+    },
+    {
+     "type": "not_next_to",
+     "a": "person:Sara",
+     "b": "person:Omar"
+    },
+    {
+     "type": "left_of",
+     "a": "color:white",
+     "b": "pet:cat"
+    },
+    {
+     "type": "left_of",
+     "a": "pet:turtle",
+     "b": "pet:fish"
+    },
+    {
+     "type": "left_of",
+     "a": "person:Sara",
+     "b": "color:blue"
+    },
+    {
+     "type": "not_same",
+     "a": "person:Lina",
+     "b": "pet:fish"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Sara",
+     "Lina",
+     "Omar",
+     "Rita"
+    ],
+    "color": [
+     "white",
+     "red",
+     "blue",
+     "yellow"
+    ],
+    "pet": [
+     "bird",
+     "cat",
+     "turtle",
+     "fish"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "hard-0",
+  "label": "hard",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Mhmd",
+     "Omar",
+     "Ali",
+     "Rita"
+    ],
+    "color": [
+     "yellow",
+     "black",
+     "green",
+     "red"
+    ],
+    "job": [
+     "chef",
+     "teacher",
+     "doctor",
+     "engineer"
+    ]
+   },
+   "clues": [
+    {
+     "type": "next_to",
+     "a": "job:chef",
+     "b": "person:Omar"
+    },
+    {
+     "type": "next_to",
+     "a": "person:Omar",
+     "b": "job:teacher"
+    },
+    {
+     "type": "same",
+     "a": "job:doctor",
+     "b": "person:Omar"
+    },
+    {
+     "type": "not_at",
+     "a": "color:red",
+     "pos": 3
+    },
+    {
+     "type": "next_to",
+     "a": "job:teacher",
+     "b": "color:yellow"
+    },
+    {
+     "type": "same",
+     "a": "person:Mhmd",
+     "b": "job:teacher"
+    },
+    {
+     "type": "not_next_to",
+     "a": "person:Mhmd",
+     "b": "person:Ali"
+    },
+    {
+     "type": "not_at",
+     "a": "job:doctor",
+     "pos": 3
+    },
+    {
+     "type": "not_next_to",
+     "a": "color:yellow",
+     "b": "person:Omar"
+    },
+    {
+     "type": "not_next_to",
+     "a": "color:black",
+     "b": "color:red"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Ali",
+     "Omar",
+     "Mhmd",
+     "Rita"
+    ],
+    "color": [
+     "red",
+     "green",
+     "black",
+     "yellow"
+    ],
+    "job": [
+     "chef",
+     "doctor",
+     "teacher",
+     "engineer"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "hard-1",
+  "label": "hard",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Mhmd",
+     "Rita",
+     "Lina",
+     "Ali"
+    ],
+    "color": [
+     "white",
+     "red",
+     "blue",
+     "green"
+    ],
+    "sport": [
+     "running",
+     "swimming",
+     "tennis",
+     "chess"
+    ]
+   },
+   "clues": [
+    {
+     "type": "not_at",
+     "a": "sport:running",
+     "pos": 3
+    },
+    {
+     "type": "next_to",
+     "a": "sport:running",
+     "b": "person:Lina"
+    },
+    {
+     "type": "same",
+     "a": "sport:chess",
+     "b": "color:blue"
+    },
+    {
+     "type": "not_next_to",
+     "a": "color:red",
+     "b": "sport:swimming"
+    },
+    {
+     "type": "same",
+     "a": "sport:chess",
+     "b": "person:Ali"
+    },
+    {
+     "type": "not_same",
+     "a": "sport:tennis",
+     "b": "color:red"
+    },
+    {
+     "type": "left_of",
+     "a": "person:Ali",
+     "b": "sport:tennis"
+    },
+    {
+     "type": "next_to",
+     "a": "person:Mhmd",
+     "b": "person:Ali"
+    },
+    {
+     "type": "not_same",
+     "a": "color:white",
+     "b": "sport:tennis"
+    },
+    {
+     "type": "next_to",
+     "a": "color:red",
+     "b": "sport:chess"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Ali",
+     "Mhmd",
+     "Lina",
+     "Rita"
+    ],
+    "color": [
+     "blue",
+     "red",
+     "green",
+     "white"
+    ],
+    "sport": [
+     "chess",
+     "running",
+     "tennis",
+     "swimming"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "hard-2",
+  "label": "hard",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Ali",
+     "Mhmd",
+     "Sara",
+     "Rita"
+    ],
+    "color": [
+     "yellow",
+     "black",
+     "green",
+     "white"
+    ],
+    "job": [
+     "pilot",
+     "chef",
+     "engineer",
+     "artist"
+    ]
+   },
+   "clues": [
+    {
+     "type": "not_next_to",
+     "a": "color:black",
+     "b": "person:Rita"
+    },
+    {
+     "type": "not_same",
+     "a": "job:artist",
+     "b": "color:white"
+    },
+    {
+     "type": "left_of",
+     "a": "job:artist",
+     "b": "person:Sara"
+    },
+    {
+     "type": "not_same",
+     "a": "color:green",
+     "b": "job:artist"
+    },
+    {
+     "type": "next_to",
+     "a": "color:yellow",
+     "b": "person:Sara"
+    },
+    {
+     "type": "next_to",
+     "a": "person:Rita",
+     "b": "job:pilot"
+    },
+    {
+     "type": "not_at",
+     "a": "job:pilot",
+     "pos": 3
+    },
+    {
+     "type": "next_to",
+     "a": "person:Sara",
+     "b": "color:green"
+    },
+    {
+     "type": "at",
+     "a": "job:chef",
+     "pos": 4
+    },
+    {
+     "type": "not_at",
+     "a": "person:Ali",
+     "pos": 3
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Rita",
+     "Sara",
+     "Mhmd",
+     "Ali"
+    ],
+    "color": [
+     "yellow",
+     "white",
+     "green",
+     "black"
+    ],
+    "job": [
+     "artist",
+     "pilot",
+     "engineer",
+     "chef"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "hard-3",
+  "label": "hard",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Rita",
+     "Lina",
+     "Ali",
+     "Sara"
+    ],
+    "color": [
+     "green",
+     "white",
+     "blue",
+     "red"
+    ],
+    "food": [
+     "salad",
+     "sushi",
+     "burger",
+     "pizza"
+    ]
+   },
+   "clues": [
+    {
+     "type": "not_same",
+     "a": "person:Lina",
+     "b": "color:blue"
+    },
+    {
+     "type": "next_to",
+     "a": "color:blue",
+     "b": "color:white"
+    },
+    {
+     "type": "not_at",
+     "a": "color:green",
+     "pos": 1
+    },
+    {
+     "type": "left_of",
+     "a": "food:sushi",
+     "b": "color:blue"
+    },
+    {
+     "type": "not_same",
+     "a": "food:pizza",
+     "b": "color:red"
+    },
+    {
+     "type": "left_of",
+     "a": "person:Rita",
+     "b": "person:Sara"
+    },
+    {
+     "type": "next_to",
+     "a": "person:Lina",
+     "b": "color:green"
+    },
+    {
+     "type": "next_to",
+     "a": "person:Ali",
+     "b": "person:Lina"
+    },
+    {
+     "type": "right_of",
+     "a": "food:burger",
+     "b": "color:red"
+    },
+    {
+     "type": "not_same",
+     "a": "food:pizza",
+     "b": "color:blue"
+    },
+    {
+     "type": "not_next_to",
+     "a": "color:blue",
+     "b": "color:red"
+    },
+    {
+     "type": "not_next_to",
+     "a": "person:Sara",
+     "b": "person:Rita"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Rita",
+     "Ali",
+     "Lina",
+     "Sara"
+    ],
+    "color": [
+     "red",
+     "green",
+     "white",
+     "blue"
+    ],
+    "food": [
+     "sushi",
+     "burger",
+     "pizza",
+     "salad"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "hard-4",
+  "label": "hard",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Ali",
+     "Lina",
+     "Omar",
+     "Sara"
+    ],
+    "color": [
+     "green",
+     "blue",
+     "black",
+     "white"
+    ],
+    "pet": [
+     "fish",
+     "turtle",
+     "bird",
+     "rabbit"
+    ]
+   },
+   "clues": [
+    {
+     "type": "not_at",
+     "a": "pet:turtle",
+     "pos": 2
+    },
+    {
+     "type": "not_same",
+     "a": "person:Ali",
+     "b": "pet:bird"
+    },
+    {
+     "type": "next_to",
+     "a": "person:Ali",
+     "b": "pet:turtle"
+    },
+    {
+     "type": "right_of",
+     "a": "person:Omar",
+     "b": "person:Ali"
+    },
+    {
+     "type": "not_next_to",
+     "a": "person:Ali",
+     "b": "person:Sara"
+    },
+    {
+     "type": "not_next_to",
+     "a": "color:green",
+     "b": "color:white"
+    },
+    {
+     "type": "not_next_to",
+     "a": "pet:rabbit",
+     "b": "pet:bird"
+    },
+    {
+     "type": "same",
+     "a": "person:Lina",
+     "b": "color:white"
+    },
+    {
+     "type": "left_of",
+     "a": "person:Sara",
+     "b": "color:black"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Sara",
+     "Lina",
+     "Ali",
+     "Omar"
+    ],
+    "color": [
+     "blue",
+     "white",
+     "black",
+     "green"
+    ],
+    "pet": [
+     "bird",
+     "fish",
+     "rabbit",
+     "turtle"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "hard-5",
+  "label": "hard",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Lina",
+     "Sara",
+     "Rita",
+     "Omar"
+    ],
+    "color": [
+     "blue",
+     "green",
+     "yellow",
+     "white"
+    ],
+    "pet": [
+     "turtle",
+     "rabbit",
+     "fish",
+     "bird"
+    ]
+   },
+   "clues": [
+    {
+     "type": "right_of",
+     "a": "color:green",
+     "b": "pet:turtle"
+    },
+    {
+     "type": "right_of",
+     "a": "color:green",
+     "b": "person:Omar"
+    },
+    {
+     "type": "not_at",
+     "a": "color:yellow",
+     "pos": 2
+    },
+    {
+     "type": "left_of",
+     "a": "person:Lina",
+     "b": "pet:turtle"
+    },
+    {
+     "type": "next_to",
+     "a": "pet:rabbit",
+     "b": "person:Rita"
+    },
+    {
+     "type": "next_to",
+     "a": "pet:bird",
+     "b": "pet:rabbit"
+    },
+    {
+     "type": "next_to",
+     "a": "person:Sara",
+     "b": "color:blue"
+    },
+    {
+     "type": "not_same",
+     "a": "person:Rita",
+     "b": "color:yellow"
+    },
+    {
+     "type": "next_to",
+     "a": "color:white",
+     "b": "person:Omar"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Lina",
+     "Rita",
+     "Omar",
+     "Sara"
+    ],
+    "color": [
+     "yellow",
+     "white",
+     "blue",
+     "green"
+    ],
+    "pet": [
+     "rabbit",
+     "bird",
+     "turtle",
+     "fish"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "hard-6",
+  "label": "hard",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Omar",
+     "Lina",
+     "Sara",
+     "Ali"
+    ],
+    "color": [
+     "yellow",
+     "blue",
+     "black",
+     "red"
+    ],
+    "food": [
+     "pizza",
+     "salad",
+     "pasta",
+     "falafel"
+    ]
+   },
+   "clues": [
+    {
+     "type": "same",
+     "a": "color:yellow",
+     "b": "person:Omar"
+    },
+    {
+     "type": "right_of",
+     "a": "color:blue",
+     "b": "food:falafel"
+    },
+    {
+     "type": "next_to",
+     "a": "color:red",
+     "b": "food:pasta"
+    },
+    {
+     "type": "not_next_to",
+     "a": "person:Lina",
+     "b": "color:yellow"
+    },
+    {
+     "type": "next_to",
+     "a": "food:pizza",
+     "b": "person:Lina"
+    },
+    {
+     "type": "same",
+     "a": "color:blue",
+     "b": "food:pasta"
+    },
+    {
+     "type": "left_of",
+     "a": "food:pizza",
+     "b": "person:Lina"
+    },
+    {
+     "type": "not_next_to",
+     "a": "person:Sara",
+     "b": "food:falafel"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Omar",
+     "Ali",
+     "Sara",
+     "Lina"
+    ],
+    "color": [
+     "yellow",
+     "blue",
+     "red",
+     "black"
+    ],
+    "food": [
+     "falafel",
+     "pasta",
+     "pizza",
+     "salad"
+    ]
+   },
+   "claimed_unique": true
+  }
+ },
+ {
+  "puzzle_id": "hard-7",
+  "label": "hard",
+  "source": "classic",
+  "puzzle": {
+   "size": 4,
+   "categories": {
+    "person": [
+     "Ali",
+     "Sara",
+     "Mhmd",
+     "Rita"
+    ],
+    "color": [
+     "blue",
+     "yellow",
+     "red",
+     "green"
+    ],
+    "pet": [
+     "turtle",
+     "bird",
+     "dog",
+     "cat"
+    ]
+   },
+   "clues": [
+    {
+     "type": "not_at",
+     "a": "person:Sara",
+     "pos": 4
+    },
+    {
+     "type": "same",
+     "a": "pet:turtle",
+     "b": "color:red"
+    },
+    {
+     "type": "next_to",
+     "a": "color:yellow",
+     "b": "pet:bird"
+    },
+    {
+     "type": "not_at",
+     "a": "color:green",
+     "pos": 3
+    },
+    {
+     "type": "next_to",
+     "a": "pet:cat",
+     "b": "color:green"
+    },
+    {
+     "type": "same",
+     "a": "person:Ali",
+     "b": "color:blue"
+    },
+    {
+     "type": "not_next_to",
+     "a": "color:red",
+     "b": "person:Mhmd"
+    },
+    {
+     "type": "left_of",
+     "a": "pet:cat",
+     "b": "color:yellow"
+    }
+   ],
+   "claimed_solution": {
+    "person": [
+     "Ali",
+     "Mhmd",
+     "Sara",
+     "Rita"
+    ],
+    "color": [
+     "blue",
+     "green",
+     "yellow",
+     "red"
+    ],
+    "pet": [
+     "cat",
+     "bird",
+     "dog",
+     "turtle"
+    ]
+   },
+   "claimed_unique": true
+  }
+ }
+]
